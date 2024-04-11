@@ -49,14 +49,14 @@ const AboutSection = () => {
     return (
         <section id="about" className='text-white'>
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-                <Image src="/images/about-image.jpg" width={600} height={600} />
+                <Image src="/images/about-image.jpg" alt="about-image" width={600} height={600} />
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                    <p className='text-base lg:text-md'>I'm Kelsey Rajher, a recent graduate eager to kickstart my career as a junior web developer.<br /><br />
+                    <p className='text-base lg:text-md'>I am Kelsey Rajher, a recent graduate eager to kickstart my career as a junior web developer.<br /><br />
 
-                        From creating captivating user interfaces to implementing robust back-end functionality, I'm passionate about leveraging technology to solve problems and deliver impactful solutions.<br /><br />
+                        From creating captivating user interfaces to implementing robust back-end functionality, I am passionate about leveraging technology to solve problems and deliver impactful solutions.<br /><br />
 
-                        I'm excited to embark on this new phase as a junior web developer and actively seeking opportunities to apply my knowledge, contribute to meaningful projects, and further develop my skills.
+                        I am excited to embark on this new phase as a junior web developer and actively seeking opportunities to apply my knowledge, contribute to meaningful projects, and further develop my skills.
                     </p>
                     <div className='flex flex-row mt-8'>
                         <TabButton selectTab={() => handleTabChange("skills")}

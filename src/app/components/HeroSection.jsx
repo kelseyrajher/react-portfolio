@@ -30,7 +30,7 @@ export const HeroSection = () => {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>I am passionate about crafting visually stunning and user-friendly experiences on the web.
+                    <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 md:pr-4 lg:text-xl'>I am passionate about crafting visually stunning and user-friendly experiences on the web.
                     </p>
                     <div>
                         <a href="#contact"><button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br  from-primary-400 to-secondary-600 hover:bg-slate-200 text-white'>Get in Touch</button></a>
@@ -43,7 +43,7 @@ export const HeroSection = () => {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    className='col-span-4 place-self-center mt-4 lg:mt-0'>
+                    className='col-span-4 place-self-center mt-8 lg:mt-0'>
                     <Image
                         src="/images/headshot-good.png"
                         alt="hero image"

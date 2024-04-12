@@ -37,15 +37,15 @@ const EmailSection = () => {
     };
 
     return (
-        <section id="contact" className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
-            <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2'></div>
+        <section id="contact" className='grid md:grid-cols-2 md:my-12 py-24 gap-4 relative'>
+
             <div>
-                <h5 className='text-xl font-bold text-white my-2'>Contact Me</h5>
+                <h2 className='text-4xl font-bold text-white mb-6 my-2'>Contact Me</h2>
                 <p className='text-[#ADB7BE] mb-4 max-w-md'>
                     If you are looking for a dedicated and enthusiastic full-stack developer,
-                    I would love to connect and explore how I can contribute to your team’s success.
+                    I would love to connect and explore how I can contribute to your team&apos;s success.
                 </p>
-                <div className='socials flex flex-row gap-2'>
+                <div className='socials flex flex-row gap-2 mb-6'>
                     <Link href="https://github.com/kelseyrajher">
                         <Image src={GithubIcon} alt="Github Icon" />
                     </Link>

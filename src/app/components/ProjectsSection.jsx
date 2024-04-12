@@ -11,8 +11,8 @@ const projectsData = [
         description: "My personal portfolio website created using Next.js and Tailwind CSS.",
         image: "/images/projects/project1.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/kelseyrajher/react-portfolio",
+        previewUrl: "https://www.kelseyrajher.com",
     },
     {
         id: 2,
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
 
 
     return (
-        <section id="projects">
+        <section id="projects" className='pt-20'>
             <><h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>My Projects</h2>
                 <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>{projectsData.map((project, index) => (
                     <motion.li
